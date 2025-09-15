@@ -1,0 +1,16 @@
+touch filename.txt                     # Create a new file
+nano filename.txt                      # Open file in editor (or use vim/code)
+git add filename.txt                   # Add a single file
+git add .                              # Add all files (in current directory)
+git commit -m "Your commit message"    # Save changes with a message
+git status                             # Show current status
+git log                                # Show commit history
+git branch                             # List branches
+git branch new-branch                  # Create a new branch
+git checkout new-branch                # Switch to a branch
+git checkout -b new-branch             # Create + switch in one step
+git merge new-branch                   # Merge branch into current branch
+git reset --hard                       # Undo all uncommitted changes
+git reset HEAD~1                       # Undo last commit
+git rm filename.txt                    # Remove a file
+  
